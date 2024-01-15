@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+<link rel="stylesheet" href="portfolio.css">
+
+<style>
+    body{
+        margin: 10px;
+        font-family: Calibri;
+        background-color: #ffffff;
+        color: #2b5a71;
+    }
+    .hr1{
+        border:none;
+        border-bottom: 2px dashed #c7a1ce;
+        height: 2px;
+        width: 100%;
+        opacity: 0.6;
+    }
+    .intro{
+        font-size: 8vw;
+        color: #ec774c;
+    }
+    .intro2{
+        font-size: 3vw;
+        letter-spacing: 8px;
+    }
+    .intro3{
+        font-family: Verdana;
+        letter-spacing: 20px;
+        background-image: linear-gradient(
+            -225deg,
+            #3f799f 0%,
+            #5d9cc5 35%,
+            #b6e2ff 50%,
+            #6eaad1 75%
+            );
+        background-size: 200% auto;
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 3s linear infinite;
+        font-size: 11vw;
+    }
+    .button {
+        background-color: #b0daf5;
+        color: #f1f1f1;
+        border: none;
+        border-radius: 100%;
+        margin: 5px;
+    }
+    .button2{
+        font-size: 20px;
+        background-color: #4c89b3;
+        border-radius: 20px;
+        padding: 5px;
+        padding-left: 10px;
+        padding-right: 10px;
+        font-family: Calibri;
+        border: 1px solid #111;
+        color: #ffffff;
+        text-decoration: none;
+    }
+    .button2 :hover{
+        opacity: 0.5;
+    }
+    .button :hover{
+        opacity: 0.5;
+    }
+    .main3{
+        justify-content: right;
+        float: right;
+        width: 50%;
+        display: flex;
+    }
+    .main4{
+        margin-top: 20px;
+        font-size: 2.5vw;
+        text-orientation: mixed;
+        writing-mode: vertical-rl;
+        font-family: monospace;
+    }
+    .main5{
+        align-items: center;
+        float: right;
+    }
+    .main6{
+        font-size: 2.5vw;
+        display: flex;
+        justify-content: center;
+        margin-top: 60px;
+        padding: 10px;
+    }
+    .main7{
+        display: flex;
+    }
+    .main8{
+        text-align: justify;
+        text-justify: auto;
+        font-size: 3vw;
+        flex:80%
+    }
+    .main9{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        transform: scale(-1,-1);
+        text-orientation: mixed;
+        writing-mode: vertical-rl;
+        flex: 20%;
+        font-size: 8vw;
+    }
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
+    @keyframes flip {
+        20%, 80% {
+            transform: rotate(20deg);
+        }
+    }
+</style>
+
+
+<body bgcolor="#f3ddf0">
+    <!-------------------------------------------------->
+    <span class="intro"><b>hey </b></span><b style="color: #ec774c;">( ﾟ▽ﾟ)</b><span style="color: #ec774c; display:inline-block; font-size: 30px; animation: flip 2s infinite;"> /</span>
+    <span class="main3">
+        <button class="button"><a href="https://github.com/ppkekw" target="_blank"><img src="https://i.ibb.co/fCSdx6s/github-4.png" alt="GitHub" border="0" height="50%"></a></button>
+        <button class="button"><a href="https://www.instagram.com/suyash_2208/" target="_blank"><img src="https://i.ibb.co/25Lfw5s/instagram.png" alt="instagram" border="0" height="50%"></a></button>
+        <button class="button"><img src="https://i.ibb.co/2PCDf8m/twitter.png" alt="Twitter" border="0" height="50%"></button>
+    </span>
+    <div class="intro2">...i am</div>
+    <div class="intro3"><b>SUYASH</b></div>
+    <hr class="hr1">
+    <!-- ---------------------------------------------->
+    <span class="main4">
+        A solo <b>DEVELOPER / ARTIST / DESIGNER</b>. <br>Hope I'll be of service... :)
+    </span>
+    <!------------------------------------------------->
+    <span class="main5">
+        <img src="https://i.postimg.cc/xdHBPDxj/Polish-20240115-221541320.png" alt="image" height="400">
+    </span>
+    <!------------------------------------------------->
+    <div class="main6">
+        Want to <span style="font-size: 5vw;"><b style="color: #ec774c;">|chat? <button class="button2"><a href="mailto:accplaceholder311@gmail.com" style="text-decoration: none; color: #ffffff;"><b>MAIL ME</b></a></button></b></span>
+    </div>
+    <!------------------------------------------------->
+    <hr class="hr1">
+    <div class="main7">
+        <span class="main8">
+            I am a 20 y/o software engineer pursuing B.Tech. My hobbies include drawing and binging albums. For now, I've been developing websites as a learning method for Web-development and I plan to become an app developer by the end of this year. Reload the page after a year to see if it works out.
+        </span>
+        <span class="main9">
+            <b style="color: #ec774c;">MORE</b>
+        </span>
+    </div>
+    <hr class="hr1">
+    <!------------------------------------------------->
+</body>
+</html>
